@@ -190,6 +190,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: $white;
+  max-height: 150px;
   cursor: pointer;
   &:hover {
     background: $rose;
