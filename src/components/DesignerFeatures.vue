@@ -357,7 +357,7 @@ a {
 .user-follow-info {
   color: hsl(0, 0%, 60%);
 }
-
+/*
 .button {
   display: block;
   justify-content: center;
@@ -370,6 +370,7 @@ a {
   box-shadow: 0px 0px 0px 1px black inset;
   transition: background 0.4s ease;
 }
+*/
 
 .button:hover {
   background: var(--purple);
