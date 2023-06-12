@@ -1,26 +1,67 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <navbar></navbar>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue';
+export default{
+  components: { Navbar }
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+div{
+  color: #7F7F7F;
 }
+.hoverable {
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -ms-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    filter: brightness(100%);
+    /*opacity: 1;*/
+}
+
+.hoverable:hover {
+    /*opacity: 0.5;*/
+    -webkit-filter: brightness(60%);
+    -moz-filter: brightness(60%);
+    -ms-filter: brightness(60%);
+    -o-filter: brightness(60%);
+    filter: brightness(60%);
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 5em;
+}
+
+.keycap {
+  background: #212529;
+  border-radius: 10%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+  color: #6e6e6e;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 40px;
+  margin-right: 3px;
+  text-align: center;
+  width: 40px;
+}
+
+.light{
+  color:#F8F9FA;
+}
+
 </style>
