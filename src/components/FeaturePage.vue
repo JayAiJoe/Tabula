@@ -49,9 +49,9 @@
 
 
     <div class="form-center mt-5">
-    <form style="">
-        <button class="light hoverable"><span class="keycap">J</span>oin the waitlist</button>
-    </form>
+    <!--<form style="">-->
+        <a class="light hoverable"><span class="keycap">J</span>oin the waitlist</a>
+    <!--</form>-->
     </div>
 
     </div>
@@ -76,7 +76,7 @@ export default{
 </script>
 
 <style scoped>
-button {
+a {
   padding-left: 25px;
   padding-right: 25px;
   border: none;
@@ -84,6 +84,7 @@ button {
   background: #F8F9FA;
   font-size: 2em;
   border-radius: 10px;
+  text-decoration: none;
 
 }
 form {

@@ -8,7 +8,8 @@
                         <router-link to="/" class="nav-link"><span class="">F</span>eatures</router-link>
                     </li>
                     <li class="hoverable">
-                        <router-link to="/join" class="nav-link"><span class="">J</span>oin</router-link>
+                        <!--<router-link to="/join" class="nav-link"><span class="">J</span>oin</router-link>-->
+                        <a href="https://forms.gle/dzHVBbJv5fxXD43R7" class="nav-link"><span class="">J</span>oin</a>
                     </li>
                 </ul>
             </div>
