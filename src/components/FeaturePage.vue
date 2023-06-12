@@ -49,9 +49,9 @@
 
 
     <div class="form-center mt-5">
-    <!--<form style="">-->
-        <a class="light hoverable"><span class="keycap">J</span>oin the waitlist</a>
-    <!--</form>-->
+    
+    <a class="light hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7"><span class="keycap">J</span>oin the waitlist</a>
+    
     </div>
 
     </div>
