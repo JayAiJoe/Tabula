@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      
+
         <div class="box" style="padding:30px">
         <div class="box-top">
           <img class="box-image" src="https://www.keebtalk.com/uploads/db8059/original/3X/7/a/7a7189094f3c7a8cb5005d70acb859a418258a83.jpeg">
@@ -112,7 +112,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: $white;
-  max-height: 150px;
+  max-height: 50px;
   cursor: pointer;
   &:hover {
     background: $rose;
@@ -123,10 +123,12 @@ button {
 
 .add {
   width: 75%;
+  max-height: 50px;
 }
 
 .like {
   width: 25%;
+  max-height: 50px;
 }
 
 
