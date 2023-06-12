@@ -39,6 +39,7 @@ button {
 
 button:hover{
     text-decoration: underline;
+    font-size: 5em;
 }
 
 .fixed{

@@ -22,7 +22,7 @@
               <div class="size">Switches</div>
           </div>
 
-          <p>Inspired by the forces of yin and yang, you get two boards as a set. This design was made with balance in mind so the switches are ...</p>
+          <p>Inspired by the forces of yin and yang, you get two boards as a set. The keys, delicately curved and adorned with a lustrous finish, showcase the contrasting elements of black and white, symbolizing the eternal cycle of opposing forces.</p>
 
         </div>
         <div class="buttons">
@@ -54,7 +54,7 @@
           </div>
 
 
-          <textarea readonly="yes" rows="3" style="font-size: 0.8em;">The new colors look way better. Nice mockup. I was so scared that the other colors would win the vote set in the last iteration hahaha.</textarea>
+          <textarea readonly="yes" rows="3" style="font-size: 0.8em; padding:3.5px;">The new colors look way better. I was so scared that the community would vote for the other color scheme haha.</textarea>
         </div>
         <div class="buttons">
             <button class="add">Comment</button>

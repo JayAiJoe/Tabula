@@ -29,6 +29,7 @@ export default {
 
 a {
     font-size: 2em;
+    letter-spacing: -1px;
     text-decoration: none;
     color: #6e6e6e;
     margin: auto;
