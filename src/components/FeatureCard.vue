@@ -4,17 +4,19 @@
         <div class="col-4">
             <div class="card p-3 mb-2">
                 <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
+                    <div class="d-flex flex-row align-items-center" style="flex-wrap: wrap;">
                         <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">BoardMaster</h6> <span>1 week ago</span>
                         </div>
+                        <div class="badge"> <span>Keyboard</span> </div>
                     </div>
-                    <div class="badge"> <span>Keyboard</span> </div>
+                    
                 </div>
-                <div class="mt-5">
+                
+                <div class="mt-2">
                     <h3 class="heading">ILY5000</h3>
-                    <div class="mt-5">
+                    <div class="mt-3">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -26,17 +28,18 @@
         <div class="col-4">
             <div class="card p-3 mb-2">
                 <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
+                    <div class="d-flex flex-row align-items-center" style="flex-wrap: wrap;">
                         <div class="icon"> <i class="bx bxl-dribbble"></i> </div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Keyng</h6> <span>1 day ago</span>
                         </div>
+                        <div class="badge"> <span>Keycaps</span> </div>
                     </div>
-                    <div class="badge"> <span>Keycaps</span> </div>
+                    
                 </div>
-                <div class="mt-5">
+                <div class="mt-2">
                     <h3 class="heading">Kaizen DSA</h3>
-                    <div class="mt-5">
+                    <div class="mt-3">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 33%; background-color: yellowgreen;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -48,17 +51,18 @@
         <div class="col-4">
             <div class="card p-3 mb-2">
                 <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
+                    <div class="d-flex flex-row align-items-center" style="flex-wrap: wrap;">
                         <div class="icon"> <i class="bx bxl-reddit"></i> </div>
                         <div class="ms-2 c-details">
                             <h6 class="mb-0">Count Tabula</h6> <span>4 days ago</span>
                         </div>
+                        <div class="badge"> <span>Keyboard</span> </div>
                     </div>
-                    <div class="badge"> <span>Keyboard</span> </div>
+                    
                 </div>
-                <div class="mt-5">
+                <div class="mt-2">
                     <h3 class="heading">Nightshade X3</h3>
-                    <div class="mt-5">
+                    <div class="mt-3">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -107,13 +111,16 @@ body {
     background-color: #212529;
     width: 75px;
     height: 25px;
-    padding: 5px;
+    padding: 0px;
     border-radius: 5px;
+    margin-top: 10px;
     display: flex;
     color: #6e6e6e;
     justify-content: center;
     align-items: center;
     filter: brightness(180%);
+    overflow: hidden;
+    float: left;
 }
 
 .progress {

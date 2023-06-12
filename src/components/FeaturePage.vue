@@ -48,17 +48,14 @@
     <community-features></community-features>
 
 
-    <div class="form-center mt-5">
     
-    <a class="light hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7"><span class="keycap">J</span>oin the waitlist</a>
     
-    </div>
-
-    </div>
+    
+    
     
 
-    <div style="height:200px;"></div>
- 
+    </div>
+    
 </template>
 
 <script>

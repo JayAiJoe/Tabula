@@ -2,12 +2,15 @@
 
   <navbar></navbar>
   <router-view></router-view>
+  <footer-block></footer-block>
+  
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
+import FooterBlock from './components/FooterBlock.vue';
 export default{
-  components: { Navbar }
+  components: { Navbar, FooterBlock }
 
 }
 </script>

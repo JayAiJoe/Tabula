@@ -1,5 +1,5 @@
 <template>
-    <nav :class ="[`navbar-light`, `bg-light`, 'navbar', 'navbar-expand']">
+    <nav :class ="[`navbar-light`, `bg-light`, 'navbar', 'navbar-expand', 'fixed']">
         <div class="container">
             <router-link to="/" class="nav-link" style="float: left;"><span class="keycap">T</span>abula</router-link>
             <div class="collapse navbar-collapse flex-grow-0">
@@ -41,6 +41,12 @@ button:hover{
     text-decoration: underline;
 }
 
+.fixed{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 100;
+}
 
 
 
