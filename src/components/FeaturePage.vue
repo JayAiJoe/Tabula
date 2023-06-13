@@ -55,6 +55,10 @@
 
     <community-features></community-features>
 
+    <div class="container">
+        <div class="row"><p>Images by pikisuperstar on Freepik </p></div>
+    </div>
+    
 
     </div>
     

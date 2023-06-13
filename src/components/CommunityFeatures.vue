@@ -2,7 +2,7 @@
     <div class="wrap">
   <div class="box">
     <div class="box-top">
-      <img class="box-image" src="https://images.unsplash.com/photo-1622219809260-ce065fc5277f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMwNjYxOQ&ixlib=rb-1.2.1&q=85" alt="Girl Eating Pizza">
+      <img class="box-image" src="../assets/pfp4.jpg">
       <div class="title-flex">
         <h3 class="box-title">Chelsea Natividad</h3>
         <p class="user-follow-info">Treasure Hunter</p>
@@ -13,7 +13,7 @@
   </div>
   <div class="box">
     <div class="box-top">
-      <img class="box-image" src="https://images.unsplash.com/photo-1488161628813-04466f872be2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxNTMwNQ&ixlib=rb-1.2.1&q=85" alt="Girl Eating Pizza">
+      <img class="box-image" src="../assets/pfp3.jpg">
       <div class="title-flex">
         <h3 class="box-title">Mark Cayas</h3>
         <p class="user-follow-info">15 Projects - Designer</p>
@@ -24,7 +24,7 @@
   </div>
   <div class="box">
     <div class="box-top">
-      <img class="box-image" src="https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxNTQzNA&ixlib=rb-1.2.1&q=85" alt="Girl Eating Pizza">
+      <img class="box-image" src="../assets/pfp2.jpg">
       <div class="title-flex">
         <h3 class="box-title">Tanya Sy</h3>
         <p class="user-follow-info">Diamond Collector</p>
@@ -35,7 +35,7 @@
   </div>
   <div class="box">
     <div class="box-top">
-      <img class="box-image" src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxNjA1MA&ixlib=rb-1.2.1&q=85" alt="Girl Eating Pizza">
+      <img class="box-image" src="../assets/pfp1.jpg">
       <div class="title-flex">
         <h3 class="box-title">Isaiah Jocson</h3>
         <p class="user-follow-info">Noob</p>
@@ -45,6 +45,7 @@
     <a href="#" class="button">Follow Isaiah</a>
   </div>
 </div>
+
 </template>
 
 <script>
@@ -125,7 +126,6 @@ a {
 
 .box-image {
   width: 100%;
-  height: 360px;
   object-fit: cover;
   object-position: 50% 20%;
 }
