@@ -112,6 +112,7 @@ a {
   position: relative;
   padding: 24px;
   background: #fff;
+  border-radius: 10px;
 }
 
 .box-top {

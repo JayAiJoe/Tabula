@@ -1,7 +1,10 @@
 <template>
 
 <div style="margin:10%">
-<div class="container mt-5 mb-3">
+<div class="container mt-3 mb-3">
+
+    <feature-card></feature-card>
+
     <div class="row">
         <div class="col-12">
             <h1 class="light title">Group Buys Galore!</h1><br>
@@ -16,7 +19,7 @@
     </div>
     </div>
 
-    <feature-card></feature-card>
+    <designer-features></designer-features>
 
     <div class="container mt-5 mb-3">
     <div class="row">
@@ -33,7 +36,7 @@
     </div>
     </div>
 
-    <designer-features></designer-features>
+    <community-features></community-features>
 
     <div class="container mt-5 mb-3">
     <div class="row">
@@ -50,7 +53,7 @@
     </div>
     </div>
 
-    <community-features></community-features>
+    
 
 
     
