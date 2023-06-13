@@ -7,13 +7,13 @@
         <div class="col-12">
             <h1 class="light title">Group Buys Galore!</h1><br>
             <p class="light paragraph">
-                Scared to enter group buys out of fear of being scammed? Our platform comes with an optional insurance policy for group buy scams to ensure you an anxiety-free group buy experience!
                 Get real-time updates on brand-new group buys. 
                 See which boards and designers are gaining traction. 
                 Never miss your opportunity to find the perfect board for you! 
                 The Tabula marketplace offers an organized catalog of group buy keyboards to help you browse boards and parts with ease. 
                 Relevant information such as product specifications, photos, experiences from buyers, seller ratings, 
-                and real-time tracking of limited slots will be available to help you make the best choice when it comes to group buys.
+                and real-time tracking of limited slots will be available to help you make the best choice when it comes to group buys. <br><br>
+                Scared to enter group buys out of fear of being scammed? Our platform comes with an optional insurance policy for group buy scams to ensure you an anxiety-free group buy experience!
             </p>
         </div>
     </div>
