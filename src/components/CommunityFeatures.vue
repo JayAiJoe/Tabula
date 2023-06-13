@@ -156,6 +156,7 @@ a {
   background: transparent;
   box-shadow: 0px 0px 0px 1px black inset;
   transition: background 0.4s ease;
+  border-radius: 10px;
 }
 
 .button:hover {

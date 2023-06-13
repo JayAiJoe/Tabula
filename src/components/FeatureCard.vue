@@ -66,7 +66,7 @@
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="mt-3"> <span class="text1">128 Applied <span class="text2">of 160 capacity</span></span> </div>
+                        <div class="mt-3"> <span class="text1">128 pledgers <span class="text2">of 160 units</span></span> </div>
                     </div>
                 </div>
             </div>
