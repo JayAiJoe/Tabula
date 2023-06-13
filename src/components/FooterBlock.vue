@@ -1,6 +1,6 @@
 <template>
     <div class="foot">
-        <a class="hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7"><span class="keycap">J</span>oin the waitlist</a>
+        <a class="hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7">click here to join the waitlist</a>
     </div>
 
 
@@ -31,7 +31,11 @@ a {
     font-size: 2em;
     letter-spacing: -1px;
     text-decoration: none;
-    color: #6e6e6e;
+    color: #F8F9FA;
     margin: auto;
+    border: 2px solid #6e6e6e;
+    border-radius: 5px;
+    padding : 15px;
+    background-color: #212529;
 }
 </style>

@@ -28,7 +28,7 @@ export default{
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 a {
     font-size: 1.5em;
 }
@@ -43,10 +43,16 @@ button:hover{
 }
 
 .fixed{
-    position: fixed;
+    //position: fixed;
     top: 0; 
+    height: 95px;
     width: 100%;
     z-index: 100;
+}
+
+li{
+    font-size: 1.2em;
+    margin-left: 15px;
 }
 
 

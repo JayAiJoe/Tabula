@@ -57,10 +57,11 @@ button {
   color: #6e6e6e;
   display: inline-block;
   font-weight: bold;
-  line-height: 40px;
+  line-height: 60px;
   margin-right: 3px;
   text-align: center;
-  width: 40px;
+  width: 60px;
+  font-size: 1.5em;
 }
 
 .light{
