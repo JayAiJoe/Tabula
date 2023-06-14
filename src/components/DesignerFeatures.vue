@@ -54,7 +54,7 @@
           </div>
 
 
-          <textarea readonly="yes" rows="3" style="font-size: 0.8em; padding:3.5px;">The new colors look way better. I was so scared that the community would vote for the other color scheme haha.</textarea>
+          <textarea  rows="3" style="font-size: 0.8em; padding:3.5px;">The new colors look way better. I was so scared that the community would vote for the other color scheme haha.</textarea>
         </div>
         <div class="buttons">
             <button class="add">Comment</button>
