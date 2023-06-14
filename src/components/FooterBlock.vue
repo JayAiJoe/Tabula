@@ -1,6 +1,6 @@
 <template>
     <div class="foot">
-        <a class="hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7">click here to join the waitlist</a>
+        <a class="hoverable" href="https://forms.gle/dzHVBbJv5fxXD43R7">Click Here to Join the Waitlist</a>
     </div>
 
 
