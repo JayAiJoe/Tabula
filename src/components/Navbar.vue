@@ -4,8 +4,12 @@
             <router-link to="/" class="nav-link" style="float: left;"><span class="keycap">T</span>abula</router-link>
             <div class="collapse navbar-collapse flex-grow-0">
                 <ul class="navbar-nav justify-content-center">
-                    <li class="hoverable">
+                    <!--<li class="hoverable">
                         <router-link to="/" class="nav-link"><span class="">F</span>eatures</router-link>
+                    </li>-->
+                    <li class="hoverable">
+                        <!--<router-link to="/join" class="nav-link"><span class="">J</span>oin</router-link>-->
+                        <a href="#" @click="randomForm" class="nav-link">Group Buy</a>
                     </li>
                     <li class="hoverable">
                         <!--<router-link to="/join" class="nav-link"><span class="">J</span>oin</router-link>-->
@@ -18,15 +22,21 @@
     
 </template>
 
-<script>
-import FeatureTable from './FeatureTable.vue';
-export default{
-    components:{
-        FeatureTable
-    }
+<script setup>
+var forms = [
+        'https://forms.gle/5HLcr4q9BoPMSZ1L8',
+        'https://forms.gle/Un79wk1bgwsTX7zP7',
+        'https://forms.gle/Mmo2dbjxVxLh16mz8',
+        'https://forms.gle/iEKnGvwzj7Ra1wXj8',
+        'https://forms.gle/d41313qogtWVgG3h7'
+        ];
 
-}
+        function randomForm() {
+            var i = parseInt(Math.random() * forms.length);
+            location.href = forms[i];
+        }
 </script>
+
 
 <style scoped lang="scss">
 a {
@@ -54,8 +64,5 @@ li{
     font-size: 1.2em;
     margin-left: 15px;
 }
-
-
-
 
 </style>
